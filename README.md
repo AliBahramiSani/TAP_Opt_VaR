@@ -1,7 +1,7 @@
 # Asset Pricing Theory — Problem Set 4
 
 ## Overview
-This repository contains code and analysis for Problem Set 4 in the Asset Pricing Course (PhD 404) at the Stockholm School of Economics, Spring 2025. The work, conducted by [Ali Bahrami Sani](https://www.hhs.se/sv/persons/b/bahrami-sani-ali/).
+This repository contains code and analysis for Problem Set 4 in the Asset Pricing Course (PhD 404) at the Stockholm School of Economics, Spring 2025. The work.
 
 ## Note
 This repository focuses on solving a problem set that involves:
