@@ -214,23 +214,23 @@ In this question, I implictitly assume that returns are normaly distributed and 
 
 To find the upper bound on the volatility we can use the following formula:
 \begin{align}
-    \sigma_{\text{max}} = \frac{r_{\text{min}}+\bar{V}}{\Phi^{-1}(\lambda)}
+    \sigma_{\text{max}} = \frac{r_{\text{target}}+\bar{V}}{\Phi^{-1}(\lambda)}
 \end{align}
-where I use the minimum target return as $r_{\text{min}}$. Using this formula we can find the upper bound on the volatility:
+where I use the target returns as $r_{\text{target}}\in[0.1,0.2]$. Using this formula we can find the upper bound on the volatility:
 \begin{align}
-    \sigma_{\text{max}} = 0.3337
+    \sigma_{\text{max}}(r_{\text{target}}) = 0.143 + 1.91 r_{\text{target}}
 \end{align}
 
-Comparing the theoretical and empirical VaR, we need to consider that the theoretical one is not necessarily like the empirical one and that is because the returns are not necessarily normally distributed. The normal distribution is symmetric, but the returns are not necessarily symmetric. In this case, since the distributions of the returns are pretty like each other, the return distribution of Alice is also looks like normal and we have the same VaR-compliant portfolios. The only difference between them is mostly because of the randomness of the Monte Carlo data generation algorithm (blue dots in \autoref{fig:Efficient_Frontier}). However, in general, the theoretical VaR is not necessarily like the empirical VaR. 
+Comparing the theoretical and empirical VaR, we need to consider that the theoretical one is not necessarily like the empirical one and that is because both returns are not necessarily normally distributed. The normal distribution is symmetric, but the returns are not necessarily symmetric. The only difference between them is mostly because of the randomness of the Monte Carlo data generation algorithm (blue dots in \autoref{fig:Efficient_Frontier}).
 
-The distribution of the returns for Bob's and Alice's are depicted in \autoref{fig:return_distribution}.
+% The distribution of the returns for Bob's and Alice's are depicted in \autoref{fig:return_distribution}. They are both normally distributed.
 
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=1\linewidth]{../Plots/return_distribution.pdf}
-    \caption{Distribution of Bob's and Alice's Returns}
-    \label{fig:return_distribution}
-\end{figure}
+% \begin{figure}[H]
+%     \centering
+%     \includegraphics[width=1\linewidth]{../Plots/return_distribution.pdf}
+%     \caption{Distribution of Bob's and Alice's Returns}
+%     \label{fig:return_distribution}
+% \end{figure}
 
 
 

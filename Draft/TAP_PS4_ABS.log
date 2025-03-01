@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.9.2)  1 MAR 2025 13:39
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.9.2)  1 MAR 2025 15:31
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1071,16 +1071,9 @@ File: ../Plots/Efficient_Frontier.pdf Graphic file (type pdf)
 <use ../Plots/Efficient_Frontier.pdf>
 Package pdftex.def Info: ../Plots/Efficient_Frontier.pdf  used on input line 210.
 (pdftex.def)             Requested size: 489.10287pt x 244.55244pt.
-<../Plots/return_distribution.pdf, id=250, 722.7pt x 433.62pt>
-File: ../Plots/return_distribution.pdf Graphic file (type pdf)
-<use ../Plots/return_distribution.pdf>
-Package pdftex.def Info: ../Plots/return_distribution.pdf  used on input line 230.
-(pdftex.def)             Requested size: 489.10287pt x 293.46161pt.
 
 
-[5 <../Plots/Efficient_Frontier.pdf>]
-
-[6 <../Plots/return_distribution.pdf>] (./TAP_PS4_ABS.aux)
+[5 <../Plots/Efficient_Frontier.pdf>] (./TAP_PS4_ABS.aux)
  ***********
 LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2024-08-16>
@@ -1089,11 +1082,11 @@ Package rerunfilecheck Info: File `TAP_PS4_ABS.out' has not changed.
 (rerunfilecheck)             Checksum: 2A73E53522CE80E22760C19933992327;943.
  ) 
 Here is how much of TeX's memory you used:
- 43098 strings out of 473578
- 978041 string characters out of 5732243
+ 43082 strings out of 473578
+ 977644 string characters out of 5732243
  1937960 words of memory out of 5000000
- 65003 multiletter control sequences out of 15000+600000
- 615402 words of font info for 276 fonts, out of 8000000 for 9000
+ 64995 multiletter control sequences out of 15000+600000
+ 615084 words of font info for 272 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  84i,12n,93p,1110b,609s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
@@ -1103,10 +1096,10 @@ pdfTeX warning (dest): name{Hfootnote.2} has been referenced but does not exist,
 pdfTeX warning (dest): name{Hfootnote.1} has been referenced but does not exist, replaced by a fixed one
 
 <c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/mathpazo/fplmr.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/mathpazo/fplmri.pfb><c:/texlive/2024/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb><c:/texlive/2024/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb><c:/texlive/2024/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on TAP_PS4_ABS.pdf (7 pages, 170394 bytes).
+Output written on TAP_PS4_ABS.pdf (6 pages, 158294 bytes).
 PDF statistics:
- 389 PDF objects out of 1000 (max. 8388607)
- 146 compressed objects within 2 object streams
- 30 named destinations out of 1000 (max. 500000)
- 84059 words of extra memory for PDF output out of 89155 (max. 10000000)
+ 346 PDF objects out of 1000 (max. 8388607)
+ 134 compressed objects within 2 object streams
+ 28 named destinations out of 1000 (max. 500000)
+ 84054 words of extra memory for PDF output out of 89155 (max. 10000000)
 

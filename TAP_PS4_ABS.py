@@ -354,7 +354,7 @@ def sigma_wo_riskfree(mu):
 # H = (r - r_0 * ones).T @ inv_cov @ (r - r_0 * ones)
 
 # MVF without risk-free asset
-mu_values = np.linspace(0.10, 0.20, 200)  # Target returns for Alice
+mu_values = np.linspace(0.10, 0.20, 100)  # Target returns for Alice
 sigma_values = sigma_wo_riskfree(mu_values)
 
 # Tangency portfolio
@@ -396,13 +396,13 @@ np.random.seed(137)  # For reproducibility
 returns_simulated = np.random.multivariate_normal(r, Sigma, M)
 
 # Compute realized returns and volatilities for Alice's portfolios
-realized_returns = np.array([returns_simulated @ w for w in weights])
+realized_returns = np.mean(np.array([returns_simulated @ w for w in weights]), axis=1)
 realized_volatilities = np.array([np.std(returns_simulated @ w) for w in weights])
 
 # Confidence intervals for expected returns
 CI_mu = np.array([
-    np.mean(realized_returns, axis=1) - 1.96 * np.std(realized_returns, axis=1) / np.sqrt(M),
-    np.mean(realized_returns, axis=1) + 1.96 * np.std(realized_returns, axis=1) / np.sqrt(M)
+    realized_returns - 1.96 * realized_volatilities / np.sqrt(M),
+    realized_returns + 1.96 * realized_volatilities / np.sqrt(M)
 ])
 #%%
 # Compute the Upper Bound
@@ -420,6 +420,7 @@ print(f"Upper bound on volatility: {sigma_max:.4f}")
 # VaR constraint
 lambda_ = 0.70  # Confidence level
 V_bar = 0.075  # Maximum loss
+# To specify which
 VaR = np.array([-np.percentile(returns_simulated @ w, 100 * (1 - lambda_)) for w in weights])
 VaR_compliant = VaR <= V_bar
 
@@ -430,8 +431,8 @@ plt.plot(volatilities, mu_values, 'b-', label="Efficient Frontier (No Risk-Free)
 plt.fill_between(volatilities, CI_mu[0], CI_mu[1], color='gray', alpha=0.3, label="95% CI")
 
 # Highlight VaR-compliant portfolios
-plt.scatter(np.array(volatilities)[VaR_compliant], np.array(mu_values)[VaR_compliant], color='green', label="VaR-Compliant")
-plt.scatter(np.array(volatilities)[~VaR_compliant], np.array(mu_values)[~VaR_compliant], color='red', label="VaR-Violating")
+plt.scatter(np.array(realized_volatilities)[VaR_compliant], np.array(realized_returns)[VaR_compliant], color='green', label="VaR-Compliant")
+plt.scatter(np.array(realized_volatilities)[~VaR_compliant], np.array(realized_returns)[~VaR_compliant], color='red', label="VaR-Violating")
 
 plt.xlabel("Volatility")
 plt.ylabel("Expected Return")
@@ -564,7 +565,8 @@ bob_VaR_70 = np.percentile(bob_returns, 30)  # 30th percentile for λ = 0.70
 
 # Alice's returns (minimum target return portfolio)
 alice_portfolio_index = 0  # Minimum target return portfolio
-alice_returns = returns_simulated @ weights[alice_portfolio_index]
+# alice_returns = returns_simulated @ weights[alice_portfolio_index]
+alice_returns = mu_values
 alice_VaR_70 = np.percentile(alice_returns, 30)  # 30th percentile for λ = 0.70
 
 # Define a common grid for the x-axis
