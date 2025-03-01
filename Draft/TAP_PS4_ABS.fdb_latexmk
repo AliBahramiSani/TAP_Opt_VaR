@@ -1,15 +1,15 @@
 # Fdb version 4
-["pdflatex"] 1740772647.00081 "c:/Users/65612/OneDrive - Handelshögskolan i Stockholm/Courses/Theoretical Asset Pricing/PS4/Draft/TAP_PS4_ABS.tex" "TAP_PS4_ABS.pdf" "TAP_PS4_ABS" 1740772648.68182 0
+["pdflatex"] 1740832759.70556 "c:/Users/65612/OneDrive - Handelshögskolan i Stockholm/Courses/Theoretical Asset Pricing/PS4/Draft/TAP_PS4_ABS.tex" "TAP_PS4_ABS.pdf" "TAP_PS4_ABS" 1740832763.51336 0
   "../Plots/Bisection.pdf" 1740765411 10120 c0cf356a2fbcf7be0f1cffb0812f7b9a ""
   "../Plots/Efficient_Frontier.pdf" 1740771101 21436 9e0bf5587a0615f93c6e6329e8279644 ""
   "../Plots/NR_Sigmoid.pdf" 1740765411 16738 adcba9a5167eb3bf3c4b1ddeaffb0d66 ""
   "../Plots/NR_X0.pdf" 1740765411 17145 996476ac491252173a00e9a7b1878053 ""
   "../Plots/integrals.pdf" 1740765412 16417 0626f56fd8ca2eb25ab88c1dd7c53725 ""
   "../Plots/return_distribution.pdf" 1740765521 14901 7f31d8ab5d7f655da5c6b760136ebfb4 ""
-  "TAP_PS4_ABS.aux" 1740772648 2761 685f488d652b5a0341dbcd88316c3e0c "pdflatex"
-  "TAP_PS4_ABS.out" 1740772648 943 2a73e53522ce80e22760c19933992327 "pdflatex"
-  "TAP_PS4_ABS.tex" 1740772646 12703 cc5bed84480134796083cb4a6cd1b964 ""
-  "c:/Users/65612/OneDrive - Handelshögskolan i Stockholm/Courses/Theoretical Asset Pricing/PS4/Draft/TAP_PS4_ABS.tex" 1740772646 12703 cc5bed84480134796083cb4a6cd1b964 ""
+  "TAP_PS4_ABS.aux" 1740832763 2761 685f488d652b5a0341dbcd88316c3e0c "pdflatex"
+  "TAP_PS4_ABS.out" 1740832763 943 2a73e53522ce80e22760c19933992327 "pdflatex"
+  "TAP_PS4_ABS.tex" 1740832757 12703 066c357a05741a68842da798f8a1d929 ""
+  "c:/Users/65612/OneDrive - Handelshögskolan i Stockholm/Courses/Theoretical Asset Pricing/PS4/Draft/TAP_PS4_ABS.tex" 1740832757 12703 066c357a05741a68842da798f8a1d929 ""
   "c:/texlive/2024/texmf-dist/fonts/enc/dvips/base/8r.enc" 1725279432 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "c:/texlive/2024/texmf-dist/fonts/map/fontname/texfonts.map" 1725279957 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "c:/texlive/2024/texmf-dist/fonts/tfm/adobe/palatino/pplb7t.tfm" 1725282658 1616 371d1ee60c04b008c8fd760060cd34f1 ""
