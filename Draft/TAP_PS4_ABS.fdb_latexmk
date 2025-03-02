@@ -1,14 +1,14 @@
 # Fdb version 4
-["pdflatex"] 1740839511.58149 "c:/Users/65612/OneDrive - Handelshögskolan i Stockholm/Courses/Theoretical Asset Pricing/PS4/Draft/TAP_PS4_ABS.tex" "TAP_PS4_ABS.pdf" "TAP_PS4_ABS" 1740839513.20411 0
-  "../Plots/Bisection.pdf" 1740837858 10120 e55eaff866f112134cee928a5fdd34bd ""
+["pdflatex"] 1740918359.05168 "c:/Users/65612/OneDrive - Handelshögskolan i Stockholm/Courses/Theoretical Asset Pricing/PS4/Draft/TAP_PS4_ABS.tex" "TAP_PS4_ABS.pdf" "TAP_PS4_ABS" 1740918360.67426 0
+  "../Plots/Bisection.pdf" 1740918033 12147 d38a324b262cf85043f128c3e2e62a80 ""
   "../Plots/Efficient_Frontier.pdf" 1740837994 21436 15c1e2fe7eab0edc6dee8b7bbfcc01f9 ""
-  "../Plots/NR_Sigmoid.pdf" 1740837858 16738 6171c13c13d7b07cda14a0f7aeeb2fdb ""
-  "../Plots/NR_X0.pdf" 1740837857 17145 598e7a131260614823411b6f50182c95 ""
+  "../Plots/NR_Sigmoid.pdf" 1740917514 16742 d53ba22197357f8aa179f2dce983215a ""
+  "../Plots/NR_X0.pdf" 1740917508 17145 851ed231975fc8d4ce23446acd73e5ff ""
   "../Plots/integrals.pdf" 1740837858 16417 37b0cdd140764856ee3dc47d22c634ba ""
-  "TAP_PS4_ABS.aux" 1740839513 2495 5dada91d5ea31e1761cf027e3e70b2dc "pdflatex"
-  "TAP_PS4_ABS.out" 1740839513 943 2a73e53522ce80e22760c19933992327 "pdflatex"
-  "TAP_PS4_ABS.tex" 1740839509 12536 b7de37017fec191f495d3a54ce29766c ""
-  "c:/Users/65612/OneDrive - Handelshögskolan i Stockholm/Courses/Theoretical Asset Pricing/PS4/Draft/TAP_PS4_ABS.tex" 1740839509 12536 b7de37017fec191f495d3a54ce29766c ""
+  "TAP_PS4_ABS.aux" 1740918360 2495 5dada91d5ea31e1761cf027e3e70b2dc "pdflatex"
+  "TAP_PS4_ABS.out" 1740918360 943 2a73e53522ce80e22760c19933992327 "pdflatex"
+  "TAP_PS4_ABS.tex" 1740918358 12933 7e5876b10c614fe5ee8dd8ef765a8d45 ""
+  "c:/Users/65612/OneDrive - Handelshögskolan i Stockholm/Courses/Theoretical Asset Pricing/PS4/Draft/TAP_PS4_ABS.tex" 1740918358 12933 7e5876b10c614fe5ee8dd8ef765a8d45 ""
   "c:/texlive/2024/texmf-dist/fonts/enc/dvips/base/8r.enc" 1725279432 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "c:/texlive/2024/texmf-dist/fonts/map/fontname/texfonts.map" 1725279957 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "c:/texlive/2024/texmf-dist/fonts/tfm/adobe/palatino/pplb7t.tfm" 1725282658 1616 371d1ee60c04b008c8fd760060cd34f1 ""

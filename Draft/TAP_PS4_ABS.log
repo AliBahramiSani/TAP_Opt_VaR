@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.9.2)  1 MAR 2025 15:31
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.9.2)  2 MAR 2025 13:25
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1050,7 +1050,7 @@ l.160
        [1 <../Plots/NR_X0.pdf>]
 
 [2 <../Plots/NR_Sigmoid.pdf>]
-<../Plots/Bisection.pdf, id=158, 462.52798pt x 346.89601pt>
+<../Plots/Bisection.pdf, id=159, 462.52798pt x 346.89601pt>
 File: ../Plots/Bisection.pdf Graphic file (type pdf)
 <use ../Plots/Bisection.pdf>
 Package pdftex.def Info: ../Plots/Bisection.pdf  used on input line 169.
@@ -1058,7 +1058,7 @@ Package pdftex.def Info: ../Plots/Bisection.pdf  used on input line 169.
 
 
 [3 <../Plots/Bisection.pdf>]
-<../Plots/integrals.pdf, id=188, 867.24pt x 433.62pt>
+<../Plots/integrals.pdf, id=195, 867.24pt x 433.62pt>
 File: ../Plots/integrals.pdf Graphic file (type pdf)
 <use ../Plots/integrals.pdf>
 Package pdftex.def Info: ../Plots/integrals.pdf  used on input line 187.
@@ -1066,7 +1066,7 @@ Package pdftex.def Info: ../Plots/integrals.pdf  used on input line 187.
 
 
 [4 <../Plots/integrals.pdf>]
-<../Plots/Efficient_Frontier.pdf, id=247, 867.24pt x 433.62pt>
+<../Plots/Efficient_Frontier.pdf, id=254, 867.24pt x 433.62pt>
 File: ../Plots/Efficient_Frontier.pdf Graphic file (type pdf)
 <use ../Plots/Efficient_Frontier.pdf>
 Package pdftex.def Info: ../Plots/Efficient_Frontier.pdf  used on input line 210.
@@ -1083,7 +1083,7 @@ Package rerunfilecheck Info: File `TAP_PS4_ABS.out' has not changed.
  ) 
 Here is how much of TeX's memory you used:
  43082 strings out of 473578
- 977644 string characters out of 5732243
+ 977647 string characters out of 5732243
  1937960 words of memory out of 5000000
  64995 multiletter control sequences out of 15000+600000
  615084 words of font info for 272 fonts, out of 8000000 for 9000
@@ -1096,10 +1096,10 @@ pdfTeX warning (dest): name{Hfootnote.2} has been referenced but does not exist,
 pdfTeX warning (dest): name{Hfootnote.1} has been referenced but does not exist, replaced by a fixed one
 
 <c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/mathpazo/fplmr.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/mathpazo/fplmri.pfb><c:/texlive/2024/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb><c:/texlive/2024/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb><c:/texlive/2024/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on TAP_PS4_ABS.pdf (6 pages, 158294 bytes).
+Output written on TAP_PS4_ABS.pdf (6 pages, 160532 bytes).
 PDF statistics:
- 346 PDF objects out of 1000 (max. 8388607)
- 134 compressed objects within 2 object streams
+ 353 PDF objects out of 1000 (max. 8388607)
+ 135 compressed objects within 2 object streams
  28 named destinations out of 1000 (max. 500000)
  84054 words of extra memory for PDF output out of 89155 (max. 10000000)
 

@@ -187,7 +187,7 @@ def bisection(a, b, tol=1e-6, max_iter=100):
     return (a + b) / 2, iterations
 
 # Define a grid of intervals to search for roots
-intervals = [(-3, -2), (-2, -1), (-1, 0), (0, 1), (1, 2), (2, 3)]
+intervals = [[-3/2, -1], [-1, -1/2], [-1/2, 1/2], [1/2, 1], [1, 3/2], [3/2, 2]]
 roots = []
 iterations = []
 
@@ -203,13 +203,20 @@ print("Roots found:", roots)
 print("Iterations required:", iterations)
 
 # Plot the function and the roots
-x_vals = np.linspace(-3, 3, 1000)
+x_vals = np.linspace(-1.5, 1.5, 1000)
 y_vals = df(x_vals)
-plt.plot(x_vals, y_vals, label="f(x)")
+plt.plot(x_vals, y_vals, label="df(x)")
 plt.axhline(0, color="black", linestyle="--", linewidth=0.5)
 plt.scatter(roots, [0] * len(roots), color="red", label=f"Root: {[round(root, 2) for root in roots]}")
+# Plot f(x) 
+plt.plot(x_vals, f(x_vals), label="f(x)")
+# Plot vertical lines for each root
+for root in roots:
+    plt.axvline(root, color="red", linestyle="--", linewidth=0.5)
+# Plot horizontal line for max of f(x)
+plt.axhline(max(f(x_vals)), color="green", linestyle="--", linewidth=0.5)
 plt.xlabel("x")
-plt.ylabel("df(x)")
+plt.ylabel("y")
 # plt.title("Bisection Method: Roots of f(x)")
 plt.legend()
 # plt.grid()

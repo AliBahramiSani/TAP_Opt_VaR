@@ -162,7 +162,7 @@ All in all, combining the results in \autoref{fig:poly} and \autoref{fig:sigmoid
 
 \subsection{The bisection algorithm}
 
-It takes $19$ iterations to converge to the solution with the bisection method depicted in \autoref{fig:bisection}. Compare to Newton-Raphson method, bisection method is slower, but guaranteed to find the correct solution. The bisection method is not contingent on the initial guess, and it is not contingent on the derivations of the function. However, it is slower than the Newton-Raphson method. Bisection alwasy find a root!
+It takes $19$ iterations to converge to the solution with the bisection method depicted in \autoref{fig:bisection}. Compare to Newton-Raphson method, bisection method is slower. The bisection method is not contingent on the initial guess. It is contingent on the first derivation of the function and how we define the intervals. However, it is slower than the Newton-Raphson method. Bisection alwasy find a root, but it is not necessarily the global maximum. As it is depicted in the \autoref{fig:bisection}, there are three roots for the function, only one of them is the global maximum which is specified with the horizontal green line. If we split the intervals into small intervals, it is true that we may find all the roots and then we can check which one is the global maximum. However, it is computationally expensive.
 
 \begin{figure}[H]
 \centering
